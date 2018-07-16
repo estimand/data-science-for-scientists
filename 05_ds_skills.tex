@@ -1,0 +1,140 @@
+\input{_preamble}
+
+\title{The Data Scientist's skill set}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Types of skills}
+    \Large%
+    \begin{enumerate}
+        \setlength{\itemsep}{\bigskipamount}
+        \item Technical
+        \item Non\hyp{}technical
+    \end{enumerate}
+\end{frame}
+
+\section{Technical skills}
+
+\begin{frame}{Technical skills}
+    \only<1>{%
+        \large%
+        \begin{itemize}
+            \setlength{\itemsep}{\medskipamount}
+            \item Basic probability
+            \item Descriptive statistics
+            \item SQL
+            \item Python and/or R + some libraries
+        \end{itemize}}
+    \only<2>{%
+        \begin{center}
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{lll}
+                \toprule
+                \textbf{Scripting language}             & \multicolumn{1}{c}{\textbf{Python}} & \multicolumn{1}{c}{\textbf{R}} \\
+                \midrule
+                \textbf{Data analysis and manipulation} & \texttt{pandas}                     & \texttt{tidyverse} \\
+                \textbf{Visualisation}                  & \texttt{seaborn}                    & \texttt{ggplot2} \\
+                \textbf{Modelling}                      & \texttt{sklearn}                    & \texttt{caret}, \texttt{mlr}, \ldots \\
+                \bottomrule
+            \end{tabular}
+        \end{center}}
+\end{frame}
+
+\begin{frame}{Automation mindset}
+    \only<1>{%
+        \begin{center}
+            \Large%
+            Standardise and automate \\
+            data collection and analysis
+        \end{center}}
+    \only<2>{%
+        \begin{center}
+            \Large%
+            Standardise and automate \\
+            \textbf{everything}!
+        \end{center}}
+\end{frame}
+
+\begin{frame}{Coding in academia vs industry}
+    \large%
+    \begin{itemize}
+        \setlength{\itemsep}{\medskipamount}
+        \item Reusability
+        \item VCS and code reviews
+        \item Testing
+        \item Integration
+        \item Monitoring and maintenance
+        \item Scalability and distributed systems
+    \end{itemize}
+\end{frame}
+
+\section{Non-technical skills}
+
+\begin{frame}{Non-technical skills}
+    \large%
+    You need to be able to\ldots
+    \begin{itemize}
+        \setlength{\itemsep}{\medskipamount}
+        \item Identify business value
+        \item Solve problems using dirty data
+        \item Communicate effectively and manage expectations
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{How do you identify business value?}
+    \large%
+    \begin{itemize}
+        \setlength{\itemsep}{\medskipamount}
+        \item You need domain expertise
+        \item What's interesting might not be what's important
+        \item \textbf{Quantify impact} whenever possible
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{How do you solve problems using dirty data?}
+    \large%
+    \begin{itemize}
+        \setlength{\itemsep}{\medskipamount}
+        \item Be curious\ldots~and a bit stubborn
+        \item Understand when to change strategy
+        \item \textbf{Focus on quality and execution} rather than quantity
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Certainty vs growth rate of knowledge}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                {\large\bf%
+                 Science} \\[\medskipamount]
+                tries to maximise \\[\medskipamount]
+                {\large\bf%
+                 certainty}
+            \end{center}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{center}
+                {\large\bf%
+                 Adversarial industries} \\[\medskipamount]
+                try to maximise \\[\medskipamount]
+                {\large\bf%
+                 growth rate}
+            \end{center}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{How do you communicate effectively?}
+    \large%
+    \begin{itemize}
+        \setlength{\itemsep}{\medskipamount}
+        \item Speak the stakeholders' language
+        \item Explain \textbf{why} a certain question is worth answering
+        \item Understand limitations and \textbf{don't overstate results}
+    \end{itemize}
+\end{frame}
+
+\end{document}
+
